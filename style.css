@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.icon{
+    margin-top: 80px;
+}
+.icon a{
+    height: 100px;
+    width: 100px;
+    background-color:white;
+    margin: 10px;
+    display: inline-flex;
+    font-size: 40px;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    background-size: 100% 200%;
+    background-position: 100% 0%;
+    transition: all ease-in-out .4s;
+    border-radius: 50%;
+}
+.icon a:nth-child(1){
+    background-image: linear-gradient(white 50%, #426782 50%);
+    color: #426782;
+}
+.icon a:nth-child(1):hover{
+    background-image: linear-gradient(white 50%, #426782 50%);
+    color: white;
+    background-position: 100% 100%;
+}
+.icon a:nth-child(2){
+    background-image: linear-gradient(white 50%, red 50%);
+    color: red;
+}
+.icon a:nth-child(2):hover{
+    background-image: linear-gradient(white 50%, red 50%);
+    color: white;
+    background-position: 100% 100%;
+}
+.icon a:nth-child(3){
+    background-image: linear-gradient(white 50%, #00acee 50%);
+    color: #00acee;
+}
+.icon a:nth-child(3):hover{
+    background-image: linear-gradient(white 50%, #00acee 50%);
+    color: white;
+    background-position: 100% 100%;
+}
